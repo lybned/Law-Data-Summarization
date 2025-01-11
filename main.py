@@ -4,6 +4,9 @@ from src.Info.InfoUtil import *
 from src.Summary.SummaryUtil import *
 import sqlite3
 from datetime import datetime
+#from config import *
+
+#import os
 
 # Function to insert data into the table
 def add_interaction(date, person1, person2, summary):
@@ -13,13 +16,23 @@ def add_interaction(date, person1, person2, summary):
     """, (date, person1, person2, summary))
     conn.commit()
 
+
 if __name__ == "__main__":
 	print("Main Running...")
+	#os.environ["OPENAI_API_BASE"] = api_url
+	#os.environ["OPENAI_MODEL_NAME"] = model_name  # Adjust based on available model
+	#os.environ["OPENAI_API_KEY"] = api_key
 	data = DataUtil()
 	basic_info = InfoUtil()
 	train_data = data.get_train_data()
 	summarize = SummaryUtil()
+	legal_text = [train_data[10]["unofficial_text"]]
 
+	#basic_info_json = basic_info.get_basic_info(legal_text)
+	#print(basic_info_json)
+	summary_json = summarize.get_summary(legal_text)
+	print(summary_json)
+	'''
 	print(len(train_data))
 	
 	basic_info_list = []
@@ -50,4 +63,4 @@ if __name__ == "__main__":
 	conn.commit()
 	
 	for x in range(len(basic_info_list)):
-		add_interaction(basic_info_list[x][1], basic_info_list[x][2], basic_info_list[x][0], summary_list[x])
+		add_interaction(basic_info_list[x][1], basic_info_list[x][2], basic_info_list[x][0], summary_list[x])'''
