@@ -5,31 +5,27 @@ from src.Summary.SummaryUtil import *
 from src.Question.QuestionUtil import *
 import sqlite3
 from datetime import datetime
-#from config import *
-
-#import os
-
-# Function to insert data into the table
-def add_interaction(date, person1, person2, summary):
-    cursor.execute("""
-    INSERT INTO interactions (date, person1, person2, summary)
-    VALUES (?, ?, ?, ?)
-    """, (date, person1, person2, summary))
-    conn.commit()
 
 
 if __name__ == "__main__":
 	print("Main Running...")
-	#os.environ["OPENAI_API_BASE"] = api_url
-	#os.environ["OPENAI_MODEL_NAME"] = model_name  # Adjust based on available model
-	#os.environ["OPENAI_API_KEY"] = api_key
 	
 	data = DataUtil()
+
+	
 	basic_info = InfoUtil()
 	train_data = data.get_train_data()
 	summarize = SummaryUtil()
 	question = QuestionUtil()
 	legal_text = [train_data[10]["unofficial_text"]]
+	#print(train_data[10]["unofficial_text"])	
+
+	try:
+		with open(file_path, "r", encoding="utf-8") as file:
+			legal_text = [file.read()]
+	except:
+		legal_text = [train_data[10]["unofficial_text"]]
+	
 
 	basic_info = basic_info.get_basic_info(legal_text)
 	#print(basic_info)
