@@ -2,6 +2,7 @@
 from src.Data.DataUtil import *
 from src.Info.InfoUtil import *
 from src.Summary.SummaryUtil import *
+from src.Question.QuestionUtil import *
 import sqlite3
 from datetime import datetime
 #from config import *
@@ -22,45 +23,51 @@ if __name__ == "__main__":
 	#os.environ["OPENAI_API_BASE"] = api_url
 	#os.environ["OPENAI_MODEL_NAME"] = model_name  # Adjust based on available model
 	#os.environ["OPENAI_API_KEY"] = api_key
+	
 	data = DataUtil()
 	basic_info = InfoUtil()
 	train_data = data.get_train_data()
 	summarize = SummaryUtil()
+	question = QuestionUtil()
 	legal_text = [train_data[10]["unofficial_text"]]
 
-	#basic_info_json = basic_info.get_basic_info(legal_text)
-	#print(basic_info_json)
+	basic_info = basic_info.get_basic_info(legal_text)
+	#print(basic_info)
 	summary_json = summarize.get_summary(legal_text)
-	print(summary_json)
-	'''
-	print(len(train_data))
-	
-	basic_info_list = []
-	summary_list = []
-	for i in range(10):
-		result = basic_info.get_basic_info(train_data[i]["unofficial_text"])
-		print(result)
-		basic_info_list.append(result)
-	
-	
-	for j in range(10):
-		summ = summarize.get_summary(train_data[j]["unofficial_text"])
-		print(summ)
-		summary_list.append(summ)
-		
-		
-	conn = sqlite3.connect("relationships.db")
-	# Create a table if it doesn't exist
-	cursor.execute("""
-	CREATE TABLE IF NOT EXISTS interactions (
-		id INTEGER PRIMARY KEY AUTOINCREMENT,
-		date TEXT NOT NULL,
-		person1 TEXT NOT NULL,
-		person2 TEXT NOT NULL,
-		summary TEXT NOT NULL
-	)
-	""")
-	conn.commit()
-	
-	for x in range(len(basic_info_list)):
-		add_interaction(basic_info_list[x][1], basic_info_list[x][2], basic_info_list[x][0], summary_list[x])'''
+	#print(summary_json)
+	ask = input("What question to ask?") #"What advice can you give based on the case?"
+	answered = question.answer_question(legal_text, ask)
+	#print(answered)
+
+	for i in range(len(summary_json[0])):
+		final_info_list = basic_info[0]
+		finao_info_eval = basic_info[1]
+		final_summary_list = summary_json[0]
+		final_summary_rating = summary_json[1]
+
+
+		print("Basic Info:")
+		print(final_info_list[i])
+		print("\n")
+
+		print("Basic Info Accuracy:")
+		print(finao_info_eval[i]["accuracy"])
+		print("\n")
+
+
+		print("Short Summary:")
+		print(final_summary_list[i])
+		print("\n")
+
+		#print("Summary Fields:")
+		#print(f"Expected: 7, Got:{final_json_number}")
+		#print("\n")
+
+		print("Summary Feedback/Rating:")
+		print(final_summary_rating[i])
+		print("\n")
+
+		print("Question Asked:")
+		print(ask)
+		print("Answer:")
+		print(answered)
