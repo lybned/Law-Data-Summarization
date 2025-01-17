@@ -28,6 +28,28 @@ crew_answer_question= Crew(
 	memory=False,
 )
 
+answer_eval_agent = Agent(
+	role='Evaluator',
+	goal="Evaluate how good the answer is based on the question and its legal case.",
+	backstory="You are specialized in answering questions regarding legal cases.",
+	max_rpm=5,
+	max_iter=3,
+	allow_delegation=False,
+)
+
+answer_eval_task = Task(
+	description="Give a rating out of 10 based on the quality of the answer towards the question asked on the legal case. \nLegal Case: {case}. \nQuestion: {question} \nAnswer: {answer}",
+	expected_output="A score out of 10 with 10 being the best and 0 being the worst. The score represents the quality of the answer towards the question. Do not include any suggestions.",
+	agent=answer_eval_agent
+)
+
+crew_answer_eval= Crew(
+	agents=[answer_eval_agent],
+	tasks=[answer_eval_task],
+	verbose=True,
+	memory=False,
+)
+
 
 class QuestionUtil:
 	def __init__(self):
@@ -46,4 +68,17 @@ class QuestionUtil:
 			}
 			)
 		eval_sum = crew_answer_question.kickoff_for_each(inputs=text_list)
-		return eval_sum[0]
+		clean_answer = str(eval_sum[0]).strip()
+		text_list_2 = []
+		for case in input_text:
+
+			text_list_2.append(
+				{
+				"case":case,
+				"question": question,
+				"answer":clean_answer
+			})
+		eval_result = crew_answer_eval.kickoff_for_each(inputs=text_list_2)
+		clean_eval = str(eval_result[0]).strip()
+		return clean_answer, clean_eval
+	
