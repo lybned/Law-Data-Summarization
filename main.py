@@ -40,7 +40,8 @@ if __name__ == "__main__":
 		finao_info_eval = basic_info[1]
 		final_summary_list = summary_json[0]
 		final_summary_rating = summary_json[1]
-
+		clean_answer = answered[0]
+		answer_eval  = answered[1]
 
 		print("Basic Info:")
 		print(final_info_list[i])
@@ -65,5 +66,10 @@ if __name__ == "__main__":
 
 		print("Question Asked:")
 		print(ask)
+		print("\n")
+		
 		print("Answer:")
-		print(answered)
+		print(clean_answer)
+		print("\n")
+		print("Answer Feedback/Rating:")
+		print(answer_eval)
