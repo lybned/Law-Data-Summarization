@@ -1,0 +1,77 @@
+Communications, Energy and Paperworkers Union of Canada v. Bell Canada
+Collection
+Canadian Human Rights Tribunal
+Date
+2003-05-28
+Neutral citation
+2003 CHRT 19
+File number(s)
+T503/2098
+Decision-maker(s)
+Deschamps, Pierre; Sinclair, Grant, Q.C.
+Decision type
+Ruling
+Decision Content
+Canadian Human Rights Tribunal Tribunal canadien des droits de la personne
+BETWEEN:
+COMMUNICATIONS, ENERGY AND
+PAPERWORKERS UNION OF CANADA,
+FEMMES-ACTION
+Complainants
+- and -
+CANADIAN HUMAN RIGHTS COMMISSION
+Commission
+- and -
+BELL CANADA
+Respondent
+RULING ON PRIVILEGE
+2003 CHRT 19
+2003/05/28
+PANEL: J. Grant Sinclair, Chair
+Pierre Deschamps, Member
+[1] On December 30, 2002, the Tribunal ordered that Bell Canada disclose all documents relating to the Joint Study located at 1000 De La Gauchetière, Montreal, and produce these documents to the other parties, except for those documents for which Bell may claim privilege. The Tribunal subsequently ordered that CHRC, CEP and Femmes-Actions disclose and produce all documents in their possession relating to the Joint Study, except documents for which privilege was claimed. In the final tally, out of a total of 1,810 documents disclosed, Bell claimed privilege for 13 documents; CEP, 3 out of a total of approximately 148 documents disclosed; and CHRC and Femmes-Actions, none.
+[2] The documents for which Bell claims privilege are listed in Schedule III of Bell's List of Documents as follows:
+litigation and collective bargaining privilege: 1490, 1493, 1500, 1501, 1732, 1746; collective bargaining privilege: 1484, 1494, 1495, 1498; litigation, collective bargaining, settlement privilege: 1752, 1753 and 1787.
+[3] CEP claims settlement privilege for document numbers 21, 53 and 83 listed in Schedule 3 to its List of Documents.
+[4] The Tribunal was given copies of and has reviewed the Bell and CEP documents for which privilege has been claimed. There is no disagreement among the parties as to the applicable tests for each privilege. Rather, the dispute is whether, on the facts, the documents are subject to the privilege claimed.
+I. LITIGATION PRIVILEGE [5] To succeed in its claim for litigation privilege, Bell must satisfy all of the following tests:
+the communication must have been produced with litigation in mind; the communication must have been produced for the dominant purpose of receiving legal advice or as an aid to the conduct of litigation; the prospect of litigation must be reasonable.
+[6] Bell pointed out that for those documents concerning CEP jobs (1490, 1493, 1500, 1501, 1732) there was no formal litigation between Bell and CEP at the time these documents were created. CEP systemic complaints were filed in 1994. But, Bell argues, it could be reasonably anticipated that, if no agreement was reached on correcting the wage gap, CEP would file complaints with the Commission.
+[7] With respect to CTEA document 1746, at the time this document was created, there were individual CTEA member complaints filed with the Commission and group complaints filed by CTEA. In this situation, Bell argues that there was outstanding litigation or at least it was reasonable to anticipate that litigation would ensue between Bell and CTEA, absent any agreement on wage gap.
+[8] The Tribunal finds that Bell has not satisfied all of the tests required pertaining to litigation privilege. In particular, it is our opinion that these documents were not created for the dominant purpose of receiving legal advice or as an aid to the conduct of litigation. Rather, the facts show that they were created for the purpose of determining the extent of the wage gap in relation to the results of the Joint Study submitted to Bell management, CTEA and CEP. The results were to be used by the respective bargaining committees in an attempt to deal with the wage gap identified in the Joint Study.
+II. SETTLEMENT PRIVILEGE [9] In order for settlement privilege to apply, the party invoking such privilege has the burden of establishing that:
+a litigious dispute is in existence or is within contemplation; the communication must be made with the express or implied intention that it would not be disclosed to the court in the event negotiations failed;
+the purpose of the communication must be to effect settlement.
+[10] Bell invokes settlement privilege with respect to CTEA documents 1752, 1753 and 1787. Bell has consistently taken the position that the Joint Study results were to be shared by the respective bargaining committees of the parties. Any wage gap identified by the Joint Study was to be addressed through collective bargaining. We have concluded that the CTEA documents for which Bell claims settlement privilege were prepared in this context and not for the purpose of effecting a settlement in a litigious dispute. In our opinion, the collective bargaining process contemplated by the parties does not amount to settlement negotiations.
+III. COLLECTIVE BARGAINING PRIVILEGE [11] The Commission and CEP disputed that such a privilege exists in Canadian law. But if such a privilege is recognized, all parties agreed that, for collective bargaining privilege to apply, all four of the Wigmore criteria must be met:
+the communication must originate in a confidence; the confidence must be essential to the relationship in which the communication arises; the relationship must be one which should be sedulously fostered in the public good. the court must consider whether the interests served by protecting the communications from disclosure outweigh the interest in getting at the truth and disposing correctly of the litigation.
+[12] On the basis of our review of these documents, namely, 1484, 1490, 1493, 1494, 1495, 1498, 1500, 1501, 1732, 1746, 1752, 1753 and 1787, we have concluded that only document 1484 satisfies all of the Wigmore criteria.
+[13] Document 1484 is an internal memorandum from Michèle Boyer of Bell's Pay Equity Group to Diane Long, Bell's chief bargaining representative. The substance of this memorandum, dated March 16, 1992, deals with various strategies of Bell relating to pay equity issues in the context of collective bargaining.
+[14] Documents 1490, 1500, 1501, 1732, 1746 and 1787 contain tables and graphs relating to various costing scenarios, some referring to CEP jobs and some referring to CTEA jobs. They refer to wage rates effective at different dates. The tables and graphs found in documents 1490, 1500, 1732, 1746 and 1787 are very similar to those found in HR-76 and HR-73. As for the costing scenarios found in document 1501, they are identical to the costing scenarios found in the HR-76 at pages 1247, 1249 and 1251.
+[15] Document 1493 contains a costing of total Bell pay equity liability using the same 1993/06/01 wage rates as are found on page 1244 of HR-76 relating to pay line gaps. As for document 1752, it compares the male and female pay lines and establishes the percentage and dollar wage gap as of 1992/11/25 for the 98 benchmark jobs using the same wage rates found on page 1244, HR-76.
+[16] Document 1753 is similar to document 1752 except for the fact that the wage rates are as of 1992/12/01 instead of 1992/11/25.
+[17] Document 1494 lists on its first page the female dominated jobs to be adjusted in CEP bargaining group. The second page contains a table which reflects the total cost of the 1993 pay equity adjustment for CEP employees if a 0.919% increase is given to female dominated jobs.
+[18] Document 1495 contains on its first page a count of CEP employees excluding students as of December 31, 1992, June 30, 1993, as well as calculations. The second page contains a table which reflects the total cost of the 1993 pay equity adjustment for CEP employees if a 1% increase is awarded to benchmark female dominated jobs.
+[19] Documents 1494 and 1495 have costing scenarios using the same wage rates set out on page 11 of document 1490 and at page 1244 in HR-76.
+[20] The first page of document 1498 is identical to the first page of document 1495. As for the second page, it contains a handwritten count of CEP employees including students as of June 1993 and December 1992.
+[21] Assuming that Bell has satisfied the first three Wigmore tests, our review of the documents as set out above, shows that the documents are either identical, very similar or closely related to documents already in evidence. When balancing the interests as mandated by Wigmore test four, we conclude that the interests of justice are best served by production of these documents.
+IV. CEP SETTLEMENT PRIVILEGE CLAIM [22] Documents 21, 53 and 83 found in the CEP's Schedule 3 List are handwritten notes made by Patricia Blackstaffe. Document 21 is a two page document, dated October 11, 1994. Document 53 is a four page document, dated May 24, 1994. Document 83 is a 17-page document, dated April 14, 1994.
+[23] We have reviewed these documents. They were created after the filing of systemic complaints by the CEP and within the context of mediation. Litigation existed at the time they were created. The content of these documents shows that they were not intended to be disclosed if there was no settlement. Accordingly, we conclude that documents 21, 53 and 83 are privileged.
+V. RATIFICATION OF AGREEMENT [24] After discussion, the parties reached agreement regarding terms of disclosure/production of certain documents prepared by Bell comprising wage gap calculations and estimates over a specified period of time. Those documents which are covered by this agreement and the terms of the agreement are specified in Exhibit T-5. The Tribunal accepts Exhibit T-5 as part of this Ruling and as an appropriate resolution of the production/privilege issues relating to these particular concerns.
+Original signed by
+J. Grant Sinclair, Chair
+Pierre Deschamps, Member
+OTTAWA, Ontario
+May 28, 2003
+CANADIAN HUMAN RIGHTS TRIBUNAL
+COUNSEL OF RECORD
+TRIBUNAL FILE NO.: T503/2098
+STYLE OF CAUSE: CEP et al v. Bell Canada
+PLACE OF HEARING: Ottawa, Ontario
+(April 29 & 30, 2003)
+RULING OF THE TRIBUNAL DATED: May 28, 2003
+APPEARANCES:
+Peter Engelmann, Lisa Campbell For the CEP
+Francine Charron, Louise Grenier For Femmes-Action
+Andrew Raven, Patrick O'Rourke For the Canadian Human Rights Commission
+Guy Dufort, Steve Katkin For Bell Canada
